@@ -1,0 +1,36 @@
+.screen-header__icons i {
+    color: black
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+.settings-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+.settings-bar__column {
+    width: 420px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400px;
+    margin-top: 10px;
+    border-bottom: 2px solid var(--atlas);
+}
+.settings-bar__column span {
+    margin-left: 20px;
+}
