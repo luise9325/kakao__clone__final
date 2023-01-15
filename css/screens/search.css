@@ -1,0 +1,99 @@
+.service {
+    width: 500px;
+    height: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid 2px rgba(0,0,0,0.2);
+}
+.service__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service__column i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+dl {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 480px;
+    position: relative;
+    padding: 10px;
+  }
+  
+  dt {
+    align-self: flex-start;
+    width: 400px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  
+  .text {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 130px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    justify-content: flex-end;
+  }
+  
+  .percentage {
+    font-size: .8em;
+    line-height: 1;
+    text-transform: uppercase;
+    width: 350px;
+    height: 40px;
+    margin-left: 130px;
+    background: repeating-linear-gradient(
+    to right,
+    #ddd,
+    #ddd 1px,
+    #fff 1px,
+    #fff 5%
+  );
+}
+
+.bar {
+    margin-top: 10px;
+    position: absolute;
+    height: 20px;
+}
+.text-1 {
+    width: 70px;
+    background-color: aqua;
+}
+.text-2 {
+    width: 240px;
+    background-color: teal;
+}
+.text-3 {
+    width: 100px;
+    background-color: tomato;
+}
+.text-4 {
+    width: 40px;
+    background-color: greenyellow;
+}
+.text-5 {
+    width: 10px;
+    background-color: yellow;
+}
+.text-6 {
+    width: 15px;
+    background-color: rgb(126, 49, 174);
+}

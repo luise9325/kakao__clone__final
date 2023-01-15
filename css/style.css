@@ -4,6 +4,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "screens/search.css";
 
 body {
     width: 500px;
