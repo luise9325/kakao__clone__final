@@ -1,0 +1,100 @@
+.nav {
+    background-color: var(--atlas);
+    width: 85%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 17px;
+    margin-left: 7.5%;
+    padding: 0px 0px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+.nav__list {
+    margin-left: 5%;
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nav__btn {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__link {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav__link i {
+    font-size: 26px;
+    transition: 0.5s;
+    margin-bottom: -10px;
+    z-index: 100;
+}
+.nav__link:focus > i {
+    transform: translateY(-35px)
+}
+.nav__link span {
+    margin-top: -2px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.nav__link:focus > span {
+    opacity: 1;
+}
+.indicator {
+    position: absolute;
+    top: -70%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--atlas);
+    border-radius: 50%;
+    border: 5px solid white;
+    transition: 0.1s ease-in-out;
+    left: 13px;
+    opacity: 0;
+}
+.indicator::before {
+    content: '';
+    position: absolute;
+    left: -18.5px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--atlas);
+    border-top-right-radius: 20px;
+    box-shadow: 0px -10px 0 0 white;
+    bottom: 3px;
+}
+.indicator::after {
+    content: '';
+    position: absolute;
+    right: -18.5px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--atlas);
+    border-top-left-radius: 20px;
+    box-shadow: 0px -10px 0 0 white;
+    bottom: 3px;
+}
+.active1:has(.nav__link:focus) ~ .indicator {
+    opacity: 1;
+}
+.active2:has(.nav__link:focus) ~ .indicator {
+    opacity: 1;
+    left: 108.5px;
+}
+.active3:has(.nav__link:focus) ~ .indicator {
+    opacity: 1;
+    left: 205px;
+}
+.active4:has(.nav__link:focus) ~ .indicator {
+    opacity: 1;
+    left: 300px;
+}
