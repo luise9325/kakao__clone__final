@@ -7,6 +7,8 @@
 @import "screens/search.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat-jeff.css";
+@import "screens/friends.css";
 
 body {
     width: 500px;

@@ -1,0 +1,25 @@
+.splash-screen {
+    background-color: var(--atlas);
+    position: absolute;
+    width: 500px;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 140px;
+    animation: hideSplashScreen 0.4s ease-out forwards;
+    animation-delay: 1s;
+}
+
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+

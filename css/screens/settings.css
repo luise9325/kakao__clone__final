@@ -1,6 +1,9 @@
 .screen-header__icons i {
     color: black
 }
+.header2 i {
+    color: black;
+}
 
 .header2 {
     display: flex;

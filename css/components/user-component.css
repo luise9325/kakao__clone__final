@@ -16,6 +16,10 @@
     margin-top: 8px;
 }
 
+.user-component span,h4 {
+    color: black;
+}
+
 .user-component__column:nth-child(1) {
     display: flex;
     width: 80%;
